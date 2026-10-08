@@ -6,4 +6,4 @@ header>.header-cta{background:var(--orange);border-color:var(--orange);color:whi
 
 .custom-jacket-display{position:absolute;inset:40px 20px 75px;display:flex;align-items:center;justify-content:center;pointer-events:none}.custom-jacket-display>.jacket-photo{height:96%;filter:drop-shadow(12px 22px 18px #0008)}.custom-branding-note{position:absolute;right:5px;top:25%;font-size:8px;letter-spacing:1.3px;line-height:2;color:#e8ebe1;background:#20291fcc;padding:11px 14px;border-left:2px solid var(--orange)}
 @media(max-width:560px){.custom-jacket-display{inset:20px 20px 65px}.custom-branding-note{right:-5px;top:20%;font-size:7px;padding:9px 11px}}
-.fabric-art>.custom-jacket-display{position:absolute;min-height:0}
+.custom-visual .fabric-art>.custom-jacket-display{position:absolute;min-height:0}

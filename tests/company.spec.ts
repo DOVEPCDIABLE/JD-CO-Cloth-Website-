@@ -11,7 +11,7 @@ test('company routes, navigation and interactive journey work on every screen',a
   }
   await page.screenshot({path:`test-results/${test.info().project.name}-${route.slice(1)}.png`,fullPage:true});
  }
- if(test.info().project.name==='mobile'){await page.getByRole('button',{name:'Open navigation'}).click();await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'About us',exact:true}).click();await expect(page).toHaveURL(/\/about$/)}
+ if(test.info().project.name==='mobile'){await page.getByRole('button',{name:'Open navigation'}).click();await page.getByRole('navigation',{name:'Main navigation'}).getByRole('link',{name:'About Us',exact:true}).click();await expect(page).toHaveURL(/\/about$/)}
  expect(errors).toEqual([]);
 });
 test('complete customization brief preserves all selections through review, edit and download',async({page})=>{

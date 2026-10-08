@@ -54,6 +54,14 @@
     {
       "source": "/customization-brief/",
       "destination": "/index.html"
+    },
+    {
+      "source": "/industries/:sector",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/industries/:sector/",
+      "destination": "/index.html"
     }
   ]
 }

@@ -10,7 +10,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Set `VITE_WHATSAPP_NUMBER` to the receiving business number in international digits only (no `+`, spaces, or punctuation). Without a number, the quotation form produces a copyable request and opens WhatsApp's contact chooser. Configure a verified business number before using this site for advertising.
+WhatsApp defaults to the business number supplied in the JD Customization Brief: +267 75 296 591. Set `VITE_WHATSAPP_NUMBER` in international digits only to override it.
 
 ```sh
 npm run build
@@ -49,3 +49,11 @@ The current website uses all 20 original transparent front/back PNG pairs suppli
 No PNG was labelled Tactical Pro in the supplied folder. Its home collection card explicitly shows an illustrative technical style; the gallery keeps each supplied image under its original collection.
 
 The gallery route is covered by Vercel rewrites, and content-hashed PNGs receive immutable caching. The originals in `h1 image/` are excluded from deployment uploads because the identical website copies are already in `public/gallery/images/`.
+
+## Company pages and customization brief
+
+`/about` explains the mission, six-layer JD ecosystem, governance principles and partnership commitments. `/client-journey` presents eleven interactive stages, with sample approval and commercial confirmation before production, the eight-document procurement toolkit and after-sales support.
+
+`/customization-brief` provides the six sections in the supplied 2026/27 brief: client/project details, overview, branding, materials, approvals, and timeline/communication. Browser validation checks required contact details, objective and positive integer quantity. Clients review and edit before opening an encoded WhatsApp message, or copy/download the brief for email. The form has no backend or persistent storage; selected files remain local and must be attached separately. A browser refresh clears the draft. Staff-only fields remain part of the team's internal project records.
+
+All pages share navigation and contact information. Vercel rewrites support direct page URLs and trailing slashes. Company pages load separately from the 3D viewer.

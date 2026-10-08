@@ -9,6 +9,6 @@ export const collections = [
  {id:'healthcare',name:'Healthcare Pro',type:'Business',tag:'PROFESSIONAL. PROTECTED.',description:'Comfortable, coordinated jackets for the people who care for others.',features:['Softshell · Puffer · Parka','Names, roles & organisation logos'],color:'#26496f'},
 ] as const;
 export type Collection = typeof collections[number];
-export const whatsappNumber = (import.meta.env.VITE_WHATSAPP_NUMBER || '').replace(/\D/g,'');
+export const whatsappNumber = (import.meta.env.VITE_WHATSAPP_NUMBER || '26775296591').replace(/\D/g,'');
 export const sizes = ['XS','S','M','L','XL','XXL','XXXL','Custom'] as const;
 export function whatsappUrl(message:string) { return whatsappNumber ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}` : `https://wa.me/?text=${encodeURIComponent(message)}`; }

@@ -30,6 +30,30 @@
     {
       "source": "/gallery/",
       "destination": "/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/about/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/client-journey",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/client-journey/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/customization-brief",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/customization-brief/",
+      "destination": "/index.html"
     }
   ]
 }

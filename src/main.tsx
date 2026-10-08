@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { lazy, Suspense } from 'react';
-const Gallery=lazy(()=>import('./gallery/Gallery'));
-const galleryRoute=/^\/gallery\/?$/.test(window.location.pathname);
 import './styles.css';
-ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode>{galleryRoute?<Suspense fallback={<div className="gallery-loading">Loading the jacket gallery…</div>}><Gallery/></Suspense>:<App/>}</React.StrictMode>);
+import './pages/company.css';
+const pages: Record<string, React.LazyExoticComponent<React.ComponentType>> = {
+ '/gallery':lazy(()=>import('./gallery/Gallery')),
+ '/about':lazy(()=>import('./pages/About')),
+ '/client-journey':lazy(()=>import('./pages/ClientJourney')),
+ '/customization-brief':lazy(()=>import('./pages/CustomizationBrief')),
+};
+const Page=pages[window.location.pathname.replace(/\/$/,'')]||App;
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><Suspense fallback={<div className="gallery-loading">Loading JD Jackets…</div>}><Page/></Suspense></React.StrictMode>);

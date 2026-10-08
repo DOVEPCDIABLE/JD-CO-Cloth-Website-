@@ -3,7 +3,7 @@ import { ArrowUpRight, Menu, X, MessageCircle } from 'lucide-react';
 import { collections, inquiryMessage, whatsappUrl, type Collection } from '../data';
 import OrderForm from './OrderForm';
 export function openOrder(collectionId?:string){window.dispatchEvent(new CustomEvent('jd-order',{detail:collectionId}))}
-export function Brand(){return <a className="logo" href="/" aria-label="JD Jackets home"><span className="logo-mark">JD<span className="logo-dot"/></span><span className="logo-text">JACKETS<small>BY JD & CO BW</small></span></a>}
+export function Brand(){return <a className="logo" href="/" aria-label="JD Jackets home"><img className="logo-image" src="/brand/jd-co-bw-logo.png" alt="JD & Co.BW — Jacket Manufacturers of Distinction" width={1774} height={887} fetchPriority="high"/></a>}
 export function SiteHeader({onQuote}:{onQuote?:()=>void}){
  const [open,setOpen]=useState(false),[order,setOrder]=useState<Collection|null>(null);
  useEffect(()=>{const listener=(e:Event)=>setOrder(collections.find(c=>c.id===(e as CustomEvent).detail)||collections[0]);window.addEventListener('jd-order',listener);return()=>window.removeEventListener('jd-order',listener)},[]);

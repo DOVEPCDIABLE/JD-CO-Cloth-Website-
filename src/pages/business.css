@@ -7,3 +7,8 @@ header>.header-cta{background:var(--orange);border-color:var(--orange);color:whi
 .custom-jacket-display{position:absolute;inset:40px 20px 75px;display:flex;align-items:center;justify-content:center;pointer-events:none}.custom-jacket-display>.jacket-photo{height:96%;filter:drop-shadow(12px 22px 18px #0008)}.custom-branding-note{position:absolute;right:5px;top:25%;font-size:8px;letter-spacing:1.3px;line-height:2;color:#e8ebe1;background:#20291fcc;padding:11px 14px;border-left:2px solid var(--orange)}
 @media(max-width:560px){.custom-jacket-display{inset:20px 20px 65px}.custom-branding-note{right:-5px;top:20%;font-size:7px;padding:9px 11px}}
 .custom-visual .fabric-art>.custom-jacket-display{position:absolute;min-height:0}
+
+/* Supplied manufacturer logo, preserved in its original proportions. */
+.logo-image{display:block;width:152px;height:76px;object-fit:contain;flex-shrink:0}footer .logo{background:#f6f5f0;padding:10px 14px;align-self:flex-start}footer .logo-image{width:152px;height:76px}
+@media(max-width:560px){header .logo-image{width:112px;height:56px}footer .logo{padding:8px 12px}footer .logo-image{width:132px;height:66px}}
+@media(max-width:560px){.company-hero-copy h1{font-size:clamp(60px,19.5vw,76px)}}

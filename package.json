@@ -1,0 +1,45 @@
+{
+  "name": "jd-jackets",
+  "version": "1.0.0",
+  "description": "Custom corporate jackets with an interactive 3D catalogue and WhatsApp quotations",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DOVEPCDIABLE/JD-CO-Cloth-Website-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/DOVEPCDIABLE/JD-CO-Cloth-Website-/issues"
+  },
+  "homepage": "https://github.com/DOVEPCDIABLE/JD-CO-Cloth-Website-#readme",
+  "dependencies": {
+    "@designcodeio/threeui": "^1.2.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "lucide-react": "^1.53.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "three": "^0.186.1"
+  },
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

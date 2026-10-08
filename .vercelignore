@@ -1,0 +1,7 @@
+webiste-detals/
+tests/
+scripts/
+test-results/
+playwright-report/
+node_modules/
+.git/

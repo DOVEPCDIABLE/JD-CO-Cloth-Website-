@@ -26,9 +26,7 @@ Import this repository in Vercel. The checked-in `vercel.json` specifies the Vit
 
 ## Product content and images
 
-`src/data.ts` defines the eight collections and configurable WhatsApp routing. Product photography is extracted from the user-supplied catalogues in `webiste-detals/`; no stock products or fabricated pricing are used. `scripts/extract-assets.py` regenerates the assets with PyMuPDF and Pillow. The original source PDFs are not shipped in the production bundle.
-
-The hero uses actual front/back catalogue photography on a lightweight extruded jacket silhouette with Three.js. It is an interactive illustrative preview, not a production CAD model or a true scanned garment. Black/navy front previews, a back view, limited drag rotation, and a static fallback are included. A supplied GLB model can replace this preview for a fully accurate 360-degree garment.
+`src/data.ts` defines the eight collections and configurable WhatsApp routing. Product photography uses the high-resolution transparent PNG pairs supplied in `h1 image/`; the older PDF cutouts have been replaced. The PDF catalogues in `webiste-detals/` remain reference material and are excluded from production uploads. See the PNG gallery details below.
 
 The customisation section uses the actual `ClothStudy` component and the closing section uses `RippleStudy` from [ThreeUI Community](https://github.com/MengTo/threeui), imported through its component subpath and loaded only when their sections enter view. Third-party attribution and MIT notices are in `THIRD_PARTY_NOTICES.md`.
 
@@ -41,3 +39,13 @@ Artwork is selected locally, not uploaded to a server or transmitted through the
 ## Accessibility and performance
 
 Semantic landmarks, keyboard-accessible modal and controls, labelled form fields, screen-reader FAQ state, reduced-motion handling, lazy 3D imports, and lazy product images are included. Product card filtering and all inquiry forms work without a backend. The 3D hero gracefully falls back to photography when WebGL is unavailable.
+
+## High-resolution PNG gallery
+
+The current website uses all 20 original transparent front/back PNG pairs supplied in `h1 image/`, copied byte-for-byte into the versioned `public/gallery/images/` folder (the duplicate local source folder is gitignored) with content-hashed filenames. No background replacement, resizing or lossy conversion is applied. `src/gallery/products.json` maps the files to their styles and collections; regenerate it with `python3 scripts/sync-gallery-assets.py` when the source PNGs change.
+
+`/gallery` is a separate page and source folder (`src/gallery/`). The page supports collection filtering, shareable `?style=` links, previous/next styles and model-specific quotation requests. One interactive Three.js viewer renders the selected jacket's original front and back from the PNG pair, with mouse/touch rotation, keyboard arrows, Home/End front/back, zoom, reset and optional auto-rotation. It is a photographic 3D presentation; PNGs do not provide the side geometry of a scanned garment. The hero reuses this viewer. A CSS 3D front/back fallback works without WebGL, and reduced motion disables idle motion and auto-rotation.
+
+No PNG was labelled Tactical Pro in the supplied folder. Its home collection card explicitly shows an illustrative technical style; the gallery keeps each supplied image under its original collection.
+
+The gallery route is covered by Vercel rewrites, and content-hashed PNGs receive immutable caching. The originals in `h1 image/` are excluded from deployment uploads because the identical website copies are already in `public/gallery/images/`.

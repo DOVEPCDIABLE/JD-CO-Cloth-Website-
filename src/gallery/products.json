@@ -1,0 +1,182 @@
+[
+  {
+    "id": "corporate-puffer",
+    "name": "Corporate executive puffer",
+    "collection": "corporate",
+    "image": "/gallery/images/corporate-puffer.f163f7f5fd.png",
+    "colour": "Black",
+    "kind": "Puffer",
+    "aspect": 0.75
+  },
+  {
+    "id": "campus-softshell",
+    "name": "Campus crest softshell",
+    "collection": "campus",
+    "image": "/gallery/images/campus-softshell.e6de842396.png",
+    "colour": "Navy",
+    "kind": "Softshell",
+    "aspect": 0.75
+  },
+  {
+    "id": "healthcare-softshell",
+    "name": "Healthcare executive softshell",
+    "collection": "healthcare",
+    "image": "/gallery/images/healthcare-softshell.0eb3f2e404.png",
+    "colour": "Navy",
+    "kind": "Softshell",
+    "aspect": 1.0
+  },
+  {
+    "id": "logistics-red",
+    "name": "Logistics contrast softshell",
+    "collection": "logistics",
+    "image": "/gallery/images/logistics-red.5423c2ad91.png",
+    "colour": "Black / red",
+    "kind": "Softshell",
+    "aspect": 0.75
+  },
+  {
+    "id": "logistics-black",
+    "name": "Logistics classic softshell",
+    "collection": "logistics",
+    "image": "/gallery/images/logistics-black.aea021da83.png",
+    "colour": "Black",
+    "kind": "Softshell",
+    "aspect": 0.75
+  },
+  {
+    "id": "logistics-industrial",
+    "name": "Logistics industrial softshell",
+    "collection": "logistics",
+    "image": "/gallery/images/logistics-industrial.2dcf1671d8.png",
+    "colour": "Black / red",
+    "kind": "Softshell",
+    "aspect": 0.75
+  },
+  {
+    "id": "mining-reflective",
+    "name": "Mining reflective softshell",
+    "collection": "mining",
+    "image": "/gallery/images/mining-reflective.b3c6690ea6.png",
+    "colour": "Black / high-vis",
+    "kind": "Softshell",
+    "aspect": 0.75
+  },
+  {
+    "id": "mining-orange",
+    "name": "Mining orange safety jacket",
+    "collection": "mining",
+    "image": "/gallery/images/mining-orange.575ce5697c.png",
+    "colour": "Orange",
+    "kind": "Safety jacket",
+    "aspect": 1.0
+  },
+  {
+    "id": "mining-yellow",
+    "name": "Mining yellow safety jacket",
+    "collection": "mining",
+    "image": "/gallery/images/mining-yellow.54644a82c2.png",
+    "colour": "Yellow / black",
+    "kind": "Safety jacket",
+    "aspect": 0.75
+  },
+  {
+    "id": "mining-bodywarmer",
+    "name": "Mining high-vis bodywarmer",
+    "collection": "mining",
+    "image": "/gallery/images/mining-bodywarmer.4724c156a5.png",
+    "colour": "Yellow",
+    "kind": "Bodywarmer",
+    "aspect": 0.75
+  },
+  {
+    "id": "mining-puffer",
+    "name": "Mining heavy-duty puffer",
+    "collection": "mining",
+    "image": "/gallery/images/mining-puffer.6ba7c5f111.png",
+    "colour": "Orange / navy",
+    "kind": "Puffer",
+    "aspect": 0.75
+  },
+  {
+    "id": "safari-puffer",
+    "name": "Safari olive puffer",
+    "collection": "safari",
+    "image": "/gallery/images/safari-puffer.9077a10df8.png",
+    "colour": "Olive",
+    "kind": "Puffer",
+    "aspect": 0.75
+  },
+  {
+    "id": "safari-olive-parka",
+    "name": "Safari olive hooded parka",
+    "collection": "safari",
+    "image": "/gallery/images/safari-olive-parka.cfd40c09c4.png",
+    "colour": "Olive",
+    "kind": "Parka",
+    "aspect": 0.75
+  },
+  {
+    "id": "safari-camo",
+    "name": "Safari camouflage parka",
+    "collection": "safari",
+    "image": "/gallery/images/safari-camo.5f8a812bd0.png",
+    "colour": "Camouflage",
+    "kind": "Parka",
+    "aspect": 0.75
+  },
+  {
+    "id": "safari-brown",
+    "name": "Safari earth-tone parka",
+    "collection": "safari",
+    "image": "/gallery/images/safari-brown.d54f953d3d.png",
+    "colour": "Earth brown",
+    "kind": "Parka",
+    "aspect": 0.75
+  },
+  {
+    "id": "sport-gradient",
+    "name": "Sport white-to-blue windbreaker",
+    "collection": "sport",
+    "image": "/gallery/images/sport-gradient.78a2110b32.png",
+    "colour": "White / blue",
+    "kind": "Windbreaker",
+    "aspect": 1.0
+  },
+  {
+    "id": "sport-blue",
+    "name": "Sport sky-blue windbreaker",
+    "collection": "sport",
+    "image": "/gallery/images/sport-blue.07af5c18cd.png",
+    "colour": "Sky blue / black",
+    "kind": "Windbreaker",
+    "aspect": 0.75
+  },
+  {
+    "id": "sport-bodywarmer",
+    "name": "Sport performance bodywarmer",
+    "collection": "sport",
+    "image": "/gallery/images/sport-bodywarmer.265e5e5146.png",
+    "colour": "Blue / black",
+    "kind": "Bodywarmer",
+    "aspect": 0.75
+  },
+  {
+    "id": "sport-fleece",
+    "name": "Sport technical fleece",
+    "collection": "sport",
+    "image": "/gallery/images/sport-fleece.dd1c943f52.png",
+    "colour": "Black / orange",
+    "kind": "Fleece",
+    "aspect": 0.75
+  },
+  {
+    "id": "sport-coach",
+    "name": "Sport extreme-cold coaches parka",
+    "collection": "sport",
+    "image": "/gallery/images/sport-coach.eeab99bbc4.png",
+    "colour": "Black",
+    "kind": "Parka",
+    "aspect": 0.75
+  }
+]

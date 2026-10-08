@@ -5,3 +5,8 @@ test-results/
 playwright-report/
 node_modules/
 .git/
+h1 image/
+dist/
+.vercel/
+.env*
+!.env.example

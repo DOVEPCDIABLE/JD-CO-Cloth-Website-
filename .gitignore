@@ -6,3 +6,5 @@ dist/
 test-results/
 playwright-report/
 .vercel/
+# Local source originals; identical, hashed PNGs are versioned in public/gallery/images/.
+/h1 image/

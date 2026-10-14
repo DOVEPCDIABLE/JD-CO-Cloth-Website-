@@ -1,0 +1,47 @@
+{
+  "campus": {
+    "image": "/catalogues/previews/jd-campus-pro-first-page.59a696457c.png",
+    "width": 1296,
+    "height": 864
+  },
+  "corporate": {
+    "image": "/catalogues/previews/jd-corporate-pro-first-page.f3f749f3e3.png",
+    "width": 1296,
+    "height": 864
+  },
+  "customization-system": {
+    "image": "/catalogues/previews/jd-customization-system-first-page.9e4b06050e.png",
+    "width": 1296,
+    "height": 864
+  },
+  "healthcare": {
+    "image": "/catalogues/previews/jd-healthcare-pro-first-page.02eaea3dae.png",
+    "width": 1296,
+    "height": 864
+  },
+  "logistics": {
+    "image": "/catalogues/previews/jd-logistics-pro-first-page.dcbbca5342.png",
+    "width": 1296,
+    "height": 864
+  },
+  "mining": {
+    "image": "/catalogues/previews/jd-mining-pro-first-page.e4c236f95f.png",
+    "width": 1296,
+    "height": 864
+  },
+  "safari": {
+    "image": "/catalogues/previews/jd-safari-pro-first-page.e3a04115c4.png",
+    "width": 1296,
+    "height": 864
+  },
+  "sport": {
+    "image": "/catalogues/previews/jd-sport-pro-first-page.86d7bb0768.png",
+    "width": 1296,
+    "height": 864
+  },
+  "tactical": {
+    "image": "/catalogues/previews/jd-tactical-pro-first-page.8fbd2dd981.png",
+    "width": 1296,
+    "height": 864
+  }
+}

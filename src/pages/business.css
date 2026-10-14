@@ -20,3 +20,10 @@ header>.header-cta{background:var(--orange);border-color:var(--orange);color:whi
 .original-catalogue-heading .catalogue-edition-note{font-size:11px;margin-top:12px;color:#74796f;max-width:550px}
 
 .catalogue-mobile-help{display:none}@media(max-width:560px){.original-catalogue-viewer{display:none}.catalogue-mobile-help{display:block;font-size:12px!important;color:#71776a;line-height:1.8;margin-top:20px}}
+
+/* Show each original first PDF page in full, without cropped artwork or overlays. */
+.industry-card .catalogue-card-visual{height:auto;background:transparent;overflow:visible}.industry-card .catalogue-card-visual>.catalogue-card-image{position:static;inset:auto;margin:0;padding:0;display:block;width:100%;height:auto;object-fit:contain;transform:none;filter:none;transition:none}.catalogue-card-visual:focus-visible{outline-offset:5px}
+
+.custom-catalogue-preview{display:block;background:#eeeee7}.custom-catalogue-preview img{display:block;width:100%;height:auto;object-fit:contain}
+
+.industry-card .catalogue-card-visual:before{display:none}

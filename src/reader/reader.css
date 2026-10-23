@@ -5,3 +5,14 @@
 
 /* Short catalogue spreads should not leave a viewport-sized empty panel. */
 .reader-surface[aria-busy=true]{min-height:140px}
+
+/* Full original spreads flow down the page; only enlarged artwork pans sideways. */
+.reader-surface{height:auto;min-height:0;max-height:none;overflow:visible;padding:0;background:transparent;border:0}
+.reader-surface[aria-busy=true]{position:relative;min-height:140px;background:#30352f}
+.reader-page{min-width:0;margin:0 0 16px;scroll-margin-top:76px}
+.reader-page-pan{width:100%;overflow:auto;padding:16px;background:#30352f;overscroll-behavior-x:contain}
+.reader-paper{position:relative;min-width:0;margin:0 auto;flex-shrink:0}
+.reader-page-loading{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px;color:#eee;font-size:12px;background:#30352f}
+.reader-page-caption{padding:9px 4px 0;color:#737c6a;font-size:11px}
+@media(max-width:560px){.reader-surface{max-height:none}.reader-page{scroll-margin-top:68px}.reader-page-pan{padding:16px}.reader-page-caption{font-size:10px}.reader-page{margin-bottom:12px}}
+@media(max-width:380px){.reader-page{scroll-margin-top:116px}}

@@ -10,3 +10,7 @@ export const catalogues:Record<string,Catalogue>={
  healthcare:{title:'Healthcare Pro',url:'/catalogues/jd-healthcare-pro.pdf',filename:'JD healthcare pro.pdf'},
 };
 export const customizationCatalogue:Catalogue={title:'JD Customization System',url:'/catalogues/jd-customization-system.pdf',filename:'JD Customization System, page 1-8  Separate PDF folder.pdf'};
+export function catalogueReaderUrl(catalogue:Catalogue){
+ const id=Object.keys(catalogues).find(key=>catalogues[key].url===catalogue.url)||'customization-system';
+ return `/catalogue/${id}`;
+}

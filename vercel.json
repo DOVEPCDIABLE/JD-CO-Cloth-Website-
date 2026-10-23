@@ -62,6 +62,14 @@
     {
       "source": "/industries/:sector/",
       "destination": "/index.html"
+    },
+    {
+      "source": "/catalogue/:type",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/catalogue/:type/",
+      "destination": "/index.html"
     }
   ]
 }

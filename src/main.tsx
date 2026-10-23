@@ -10,6 +10,7 @@ const pages: Record<string, React.LazyExoticComponent<React.ComponentType>> = {
  '/client-journey':lazy(()=>import('./pages/ClientJourney')),
  '/customization-brief':lazy(()=>import('./pages/CustomizationBrief')),
 };
+const CatalogueReader=lazy(()=>import('./reader/CatalogueReader'));
 const Industry=lazy(()=>import('./pages/Industry'));
-const Page=window.location.pathname.startsWith('/industries/')?Industry:pages[window.location.pathname.replace(/\/$/,'')]||App;
+const Page=window.location.pathname.startsWith('/catalogue/')?CatalogueReader:window.location.pathname.startsWith('/industries/')?Industry:pages[window.location.pathname.replace(/\/$/,'')]||App;
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><Suspense fallback={<div className="gallery-loading">Loading JD Jackets…</div>}><Page/></Suspense></React.StrictMode>);

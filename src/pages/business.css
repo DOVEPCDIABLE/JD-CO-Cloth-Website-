@@ -27,3 +27,5 @@ header>.header-cta{background:var(--orange);border-color:var(--orange);color:whi
 .custom-catalogue-preview{display:block;background:#eeeee7}.custom-catalogue-preview img{display:block;width:100%;height:auto;object-fit:contain}
 
 .industry-card .catalogue-card-visual:before{display:none}
+
+.original-catalogue-reader-preview{display:block;position:relative;max-width:1100px;margin:auto}.original-catalogue-reader-preview img{display:block;width:100%;height:auto}.original-catalogue-reader-preview>span{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:18px 22px;background:#071e31;color:white;font-size:12px}.original-catalogue-reader-preview:hover>span{background:#173b4d}

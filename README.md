@@ -68,11 +68,11 @@ The short order form collects company/contact/sector/phone, collection/style/col
 
 ## Original catalogue PDFs
 
-All eight industry pages include their matching original catalogue, with an embedded PDF viewer and direct view/download links. The Customization Brief page also includes the original JD Customization System PDF. `src/catalogues.ts` maps each type to its source filename and public URL; `src/components/OriginalCatalogue.tsx` renders the shared viewer. Files under `public/catalogues/` are byte-for-byte copies of their source PDFs in `webiste-detals/`, with the supplied page order and artwork unchanged.
+The eight industry pages include their matching PDF and an in-site reader link. The homepage also includes Lifestyle Pro as an additional catalogue. `src/catalogues.ts` maps each type to its download filename and versioned public URL; `src/components/OriginalCatalogue.tsx` renders the shared preview. The latest nine collection PDFs under `public/catalogues/` are byte-for-byte copies of the files supplied in `new-pdfs/`, with artwork and page order unchanged. The Tactical edition is the supplied `RECONSTRUCTED_REVIEW` file. The Customization System remains the previous supplied edition because `new-pdfs/` contains no replacement for it.
 
-The Healthcare and Sport `(1)` files are exact duplicates of their counterparts and are not published twice. `JD campos pro.pdf` is the Campus catalogue. The supplied Sport edition is marked as awaiting pages 4–5 and 9–10; its page shows this note without modifying the PDF. Replace the corresponding public file with a complete supplied edition when available.
+Each replacement collection PDF has six spreads, except Lifestyle Pro, which has 16 pages. The Sport replacement now includes all six spreads, so the previous missing-page notice has been removed. Lifestyle retains its supplied concept/sample-validation status. Public PDF URLs include a source checksum version parameter to refresh cached editions. Historical source PDFs in `webiste-detals/` remain reference material.
 
-The homepage industry cards now show uncropped PNG screenshots of the first PDF page, rather than jacket cutouts. Image, title and View PDF links open the matching original PDF directly in a new tab. The customization preview works the same way. `src/catalogue-previews.json` records each rendered preview and its dimensions; files in `public/catalogues/previews/` are rendered directly from the original first PDF page and use content-hashed filenames.
+Homepage cards show uncropped PNG screenshots of the first PDF page. The image, title and Read catalogue links open the matching in-site reader in the same tab. The customization preview works the same way. `src/catalogue-previews.json` records each rendered preview and its dimensions; files in `public/catalogues/previews/` are rendered directly from the first PDF page, sized to 1296 pixels wide and given content-hashed filenames.
 
 ## In-site PDF reader
 

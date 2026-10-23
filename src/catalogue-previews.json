@@ -1,11 +1,11 @@
 {
   "campus": {
-    "image": "/catalogues/previews/jd-campus-pro-first-page.59a696457c.png",
+    "image": "/catalogues/previews/jd-campus-pro-first-page.dacc6e92b3.png",
     "width": 1296,
-    "height": 864
+    "height": 916
   },
   "corporate": {
-    "image": "/catalogues/previews/jd-corporate-pro-first-page.f3f749f3e3.png",
+    "image": "/catalogues/previews/jd-corporate-pro-first-page.a82fa34240.png",
     "width": 1296,
     "height": 864
   },
@@ -15,33 +15,38 @@
     "height": 864
   },
   "healthcare": {
-    "image": "/catalogues/previews/jd-healthcare-pro-first-page.02eaea3dae.png",
+    "image": "/catalogues/previews/jd-healthcare-pro-first-page.81329cabec.png",
     "width": 1296,
-    "height": 864
+    "height": 916
   },
   "logistics": {
-    "image": "/catalogues/previews/jd-logistics-pro-first-page.dcbbca5342.png",
+    "image": "/catalogues/previews/jd-logistics-pro-first-page.16b038572b.png",
     "width": 1296,
     "height": 864
   },
   "mining": {
-    "image": "/catalogues/previews/jd-mining-pro-first-page.e4c236f95f.png",
+    "image": "/catalogues/previews/jd-mining-pro-first-page.5db50b2941.png",
     "width": 1296,
-    "height": 864
+    "height": 916
   },
   "safari": {
-    "image": "/catalogues/previews/jd-safari-pro-first-page.e3a04115c4.png",
+    "image": "/catalogues/previews/jd-safari-pro-first-page.d91e6241b7.png",
     "width": 1296,
-    "height": 864
+    "height": 916
   },
   "sport": {
-    "image": "/catalogues/previews/jd-sport-pro-first-page.86d7bb0768.png",
+    "image": "/catalogues/previews/jd-sport-pro-first-page.0a384def77.png",
     "width": 1296,
     "height": 864
   },
   "tactical": {
-    "image": "/catalogues/previews/jd-tactical-pro-first-page.8fbd2dd981.png",
+    "image": "/catalogues/previews/jd-tactical-pro-first-page.e59c9130b9.png",
     "width": 1296,
     "height": 864
+  },
+  "lifestyle": {
+    "image": "/catalogues/previews/jd-lifestyle-pro-first-page.6ee16c3570.png",
+    "width": 1296,
+    "height": 918
   }
 }
